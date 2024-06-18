@@ -20,7 +20,7 @@ app.use((req, res, next) => {
 
 
 
-const PORT = process.env.DEV_PORT;
+const PORT = process.env.PORT || 3000;
 const MONGODB_URI = process.env.MONGODB_URI;
 
 /**
